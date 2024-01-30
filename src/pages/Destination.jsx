@@ -3,7 +3,7 @@ import data from "../assets/data.json";
 import { useState } from "react";
 
 const Destination = () => {
-  const [destination, setDestination] = useState(data.destinations);
+  const [destination] = useState(data.destinations);
   const [index, setIndex] = useState(0);
   const [isActive, setIsActive] = useState(0);
 
