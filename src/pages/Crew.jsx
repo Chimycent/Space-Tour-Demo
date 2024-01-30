@@ -45,10 +45,10 @@ function handleClick (args){
           </p>
         </div>
         <div className="flex absolute bottom-10 items-center gap-5 ml-[85px] mt-9">
-          <div  onClick={()=>handleClick(0)} className={`${isActive===0 ? "bg-white w-[15px] h-[15px] ":"bg-[#979797] opacity-[17%]" } rounded-full w-[10px] h-[10px] cursor-pointer`}></div>
-          <div onClick={()=>handleClick(1)} className={`${isActive===1 ? "bg-white w-[15px] h-[15px] ":"bg-[#979797] opacity-[17%]" } rounded-full  w-[10px] h-[10px]  cursor-pointer`} ></div>
-          <div onClick={()=>handleClick(2)} className= {`${isActive===2 ? "bg-white w-[15px] h-[15px] ":"bg-[#979797] opacity-[17%]" } rounded-full  w-[10px] h-[10px]  cursor-pointer`}></div>
-          <div onClick={()=>handleClick(3)} className= {`${isActive===3 ? "bg-white w-[15px] h-[15px] ":"bg-[#979797] opacity-[17%]" } rounded-full  w-[10px] h-[10px]  cursor-pointer`}></div>
+          <div  onClick={()=>handleClick(0)} className={`${isActive===0 ? "bg-white w-[15px] h-[15px] ":"bg-[#979797] opacity-[17%] w-[10px] h-[10px] " } rounded-full cursor-pointer`}></div>
+          <div onClick={()=>handleClick(1)} className={`${isActive===1 ? "bg-white w-[15px] h-[15px] ":"bg-[#979797] opacity-[17%] w-[10px] h-[10px] " }  rounded-full  cursor-pointer`} ></div>
+          <div onClick={()=>handleClick(2)} className= {`${isActive===2 ? "bg-white w-[15px] h-[15px] ":"bg-[#979797] opacity-[17%] w-[10px] h-[10px] " } rounded-full  cursor-pointer`}></div>
+          <div onClick={()=>handleClick(3)} className= {`${isActive===3 ? "bg-white w-[15px] h-[15px] ":"bg-[#979797] opacity-[17%]  w-[10px] h-[10px] " } rounded-full  cursor-pointer`}></div>
         </div>
       </div>
 
