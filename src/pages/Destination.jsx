@@ -9,7 +9,6 @@ const Destination = () => {
 
   const current = destination[index];
 
-  console.log(typeof current);
 
   const handleClick = (args) => {
     setIndex(args);
@@ -17,7 +16,6 @@ const Destination = () => {
 
   };
 
-  // console.log(p)
 
   return (
     <div

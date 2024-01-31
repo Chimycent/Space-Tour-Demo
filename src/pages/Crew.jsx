@@ -7,9 +7,8 @@ const [crew] = useState(data.crew);
 const [index, setIndex] = useState(0)
 const [isActive, setIsActive] = useState(0)
 
-console.log(crew)
 const current = crew[index]
-console.log(current)
+
 function handleClick (args){
   setIndex(args)
   setIsActive(args)
@@ -51,7 +50,6 @@ function handleClick (args){
           <div onClick={()=>handleClick(3)} className= {`${isActive===3 ? "bg-white w-[15px] h-[15px] ":"bg-[#979797] opacity-[17%]  w-[10px] h-[10px] " } rounded-full  cursor-pointer`}></div>
         </div>
       </div>
-
     
         <img src={current.images.webp} alt={current.name} className="object-cover h-[30rem] " />
 
