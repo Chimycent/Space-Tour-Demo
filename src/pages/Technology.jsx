@@ -51,7 +51,7 @@ const Technology = () => {
         </div>
 
       </div>
-      <img src={current.images.webp} alt={current.name} className="object-cover h-[25rem] w-[30rem] ml-auto" />
+      <img src={current.images.portrait} alt={current.name} className="h-[400px] w-[400px] absolute right-0" />
 
   </div>
   
