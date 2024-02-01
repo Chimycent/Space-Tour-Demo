@@ -45,9 +45,9 @@ const Technology = () => {
         </div>
 
         <div className="flex flex-col absolute items-center gap-5 mr-[85px] mt-9  text-[28px]">
-          <div  onClick={()=>handleClick(0)} className={`${isActive===0 ? "text-black bg-white w-[50px] h-[50px]  border-white rounded-full":"w-[50px] h-[50px] border rounded-full pl-4" } cursor-pointer`}>1</div>
-          <div onClick={()=>handleClick(1)} className={`${isActive===1 ? " text-black bg-white w-[50px] h-[50px]  border-white rounded-full  ":" w-[50px] h-[50px] border rounded-full pl-4" } cursor-pointer`} >2</div>
-          <div onClick={()=>handleClick(2)} className= {`${isActive===2 ? " text-black bg-white w-[50px] h-[50px]  border-white rounded-full  ":" w-[50px] h-[50px] border rounded-full pl-4" } cursor-pointer`}>3</div>
+          <div  onClick={()=>handleClick(0)} className={`${isActive=== 0 ? "text-black bg-white w-[50px] h-[50px]  border-white rounded-full pl-4":"text-white w-[50px] h-[50px] border rounded-full pl-4" } cursor-pointer`}>1</div>
+          <div onClick={()=>handleClick(1)} className={`${isActive=== 1 ? " text-black bg-white w-[50px] h-[50px]  border-white rounded-full  pl-4":" text-white w-[50px] h-[50px] border rounded-full pl-4" } cursor-pointer`} >2</div>
+          <div onClick={()=>handleClick(2)} className= {`${isActive=== 2 ? " text-black bg-white w-[50px] h-[50px]  border-white rounded-full  pl-4":"text-white w-[50px] h-[50px] border rounded-full pl-4" } cursor-pointer`}>3</div>
         </div>
 
       </div>
