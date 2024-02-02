@@ -4,6 +4,8 @@ import Technology from "./pages/Technology";
 import Crew from "./pages/Crew";
 import Destination from "./pages/Destination";
 import Navbar from "./components/Navbar";
+// import { IoMenu } from "react-icons/io5";
+import Test from "./pages/Test";
 
 function App() {
   return (
